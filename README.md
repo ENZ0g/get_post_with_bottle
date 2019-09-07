@@ -9,5 +9,6 @@ GET request gets the information from the DB.
 POST request puts new information into the DB.
 
 You can launch server.py and try it by sending requests with httpie. For example:
+
 http -f GET http://localhost:8080/albums/queen                                                 
 http -f POST http://localhost:8080/albums/ year=2006 artist="Pink" genre="pop-rock" album="Funhouse"
